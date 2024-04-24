@@ -3,12 +3,15 @@ import "./Footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
+import Logo from "../Logo/Logo";
 
 const Footer = () => {
   return (
     <footer>
+      <hr />
       <section className="top">
-        <img src="logo.svg" alt="Logo" />
+        <Logo/><br/>
+        
         <div className="links">
           <div className="links-column">
             <h2>Zobacz Również:</h2>

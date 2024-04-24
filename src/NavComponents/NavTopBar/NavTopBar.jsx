@@ -1,11 +1,15 @@
 import React from 'react'
 import "./NavTopBar.css"
+import Logo from '../Logo/Logo'
 
 function NavTopBar() {
   return (
     <div>
     <nav>
       <ul class="menu">
+        <li><Logo/></li>
+        <li>       </li>
+        <li>       </li>
         <li><a>Główna</a></li>
         <li><a>Matutra</a></li>
         <li>
