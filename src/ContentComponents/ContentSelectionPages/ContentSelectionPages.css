@@ -1,0 +1,69 @@
+  
+  
+  
+  .selection-page {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .search-panel {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  .search-panel input {
+    text-align: left;
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    border: none; 
+    border-radius: 10px;
+    outline: none; 
+    font-size: 16px; 
+  }
+  .search-view-panel {
+    width: 80%;
+  }
+  .right-panel {
+    width: 20%;
+  }
+  /*CardViewSelction*/
+  .card-views-panel-s {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-view-s {
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  .card-view-s:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0);
+  }
+  .card-view-s h3 {
+    margin: 0;
+  }
+  .card-view-s a {
+    font-family: "Sriracha", cursive;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+    color: #333; 
+    text-decoration: none; 
+    cursor:cell; 
+    
+  }
+  
