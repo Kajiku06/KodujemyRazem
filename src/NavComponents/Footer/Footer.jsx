@@ -15,19 +15,19 @@ const Footer = () => {
         <div className="links">
           <div className="links-column">
             <h2>Zobacz Również:</h2>
-            <a href="/CiekawyKalkulator">• Gry Logiczne</a>
-            <a></a>
-            <a></a>
-            <a></a>
-            <a></a>
+            <a>Bla</a>
+            <a>Bla</a>
+            <a>Bla</a>
+            <a>Bla</a>
+            <a>Bla</a>
           </div>
           <div className="links-column">
             <h2>Matura:</h2>
-            <a href="/MaterialyNaukowe">• Materiały Naukowe</a>
-            <a></a>
-            <a></a>
-            <a></a>
-            <a></a>
+            <a>Bla</a>
+            <a>Bla</a>
+            <a>Bla</a>
+            <a>Bla</a>
+            <a>Bla</a>
           </div>
           <div className="links-column socials-column">
             <h2>Media:</h2>
@@ -45,8 +45,8 @@ const Footer = () => {
       <section className="bottom">
         <p className="copyright">© 2024 Wszelkie prawa zastrzeżone</p>
         <div className="legal">
-          <a href="https://www.pexels.com/pl-PL/license/">Pexels</a>
-          <a href="https://www.freepik.com">Freepik</a>
+          <a href="#">Kontakt</a>
+          <a href="#">Polityka prywatności</a>
         </div>
       </section>
     </footer>
