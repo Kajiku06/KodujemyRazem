@@ -29,25 +29,25 @@ const MainWebsite = () => {
 
       <div className="card-view">
         <div className="card"> 
-          <a href="/strona-1">
+          <a href="/BazyDanych">
             <div className="image-container">
-              <img src="https://zndirect.pl/wp-content/uploads/2023/08/co-to-baza-danych.jpeg" alt="BD" />
+              <img src="src\ContentComponents\MainWebsite\img1.jpg" alt="BD" />
               <div className="text-overlay">Bazy Danych</div>
             </div>
           </a>
         </div>
         <div className="card">
-          <a href="/strona-2">
+          <a href="/Sortowania">
             <div className="image-container">
-              <img src="https://img.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg" alt="Obrazek 2" />
+              <img src="src\ContentComponents\MainWebsite\img2.jpg" alt="Obrazek 2" />
               <div className="text-overlay">Sortowania</div>
             </div>
           </a>
         </div>
         <div className="card">
-          <a href="/strona-3">
+          <a href="/Algorytmy">
             <div className="image-container">
-              <img src="https://media.istockphoto.com/id/1010690668/photo/power-of-big-data-binary-code-information-bit-on-computer-monitor-screen-display-led-light.webp?b=1&s=170667a&w=0&k=20&c=BAOuBm1FZEzxsN1zDkYCv2TG9cIY8IxTWuj-EglLvo8=" alt="Obrazek 3" />
+              <img src="src\ContentComponents\MainWebsite\img3.jpg" alt="Obrazek 3" />
               <div className="text-overlay">Algorytmy</div>
             </div>
           </a>
@@ -58,7 +58,7 @@ const MainWebsite = () => {
         <h2>Ciekawy Kalkulator</h2>
         <p>
 Ciekawy Kalkulator to interaktywne narzędzie, które umożliwia użytkownikom wykonywanie różnych obliczeń matematycznych w sposób prosty i intuicyjny. Jest to więcej niż zwykły kalkulator, ponieważ może zawierać dodatkowe funkcje i opcje, które sprawiają, że jest interesujący i użyteczny dla użytkowników.</p>
-        <a href="/jakies-link" className="button">Zobacz!</a>
+        <a href="/Kalkulator" className="button">Zobacz!</a>
       </div>
     </div>
   );

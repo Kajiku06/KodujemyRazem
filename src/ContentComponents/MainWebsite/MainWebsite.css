@@ -1,16 +1,16 @@
 .header {
   background-image: url('MainWebsite.jpg'); /* URL do losowego zdjecia w necie(na razie)*/
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
+  background-position: center calc(-1100px);
   height: 350px;
   color: white;
   padding: 100px 0;
   text-align: center;
-  transition: background-position 0.9s; /* Płynne przejście, czas zmieniania pozycji* */
+  transition: background-position 10s; /* Płynne przejście, czas zmieniania pozycji* */
 }
 
 .header.scrolled {
-  background-position: center calc(40% + 100px); /*Animacja przewijania*/
+  background-position: calc(10%); /*Animacja przewijania*/
 }
 
 /*Karty!*/
@@ -57,7 +57,7 @@
   border-radius: 10px;
 }
 .calc {
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/103/402/544/blueprint-technical-pattern-wallpaper-preview.jpg');
+  background-image: url('https://img.freepik.com/free-photo/grid-line-pattern-with-blue-texture-background_1409-1354.jpg');
   padding-top: 5%;
   padding-bottom: 5%;
   margin-right: 50px;

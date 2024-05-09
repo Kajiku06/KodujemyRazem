@@ -1,0 +1,33 @@
+.btn{
+    border-radius: 100px;
+    font-family:'Helvetica';
+    font-size: large;
+    border: 3px solid blue;
+    background-color: white;
+}
+.btn-disabled{
+    border: 3px dotted yellow;
+    background-color: black;
+    color: white;
+}
+.white{
+    color: white;
+}
+.block{
+    display: block;
+}
+.list-group{
+    display: inline-block;
+}
+.li-stick {
+    text-align: center;
+    width: 20px;
+    float: left;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.menu-calc{
+    text-align: center;
+}

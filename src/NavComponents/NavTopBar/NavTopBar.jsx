@@ -12,7 +12,7 @@ function NavTopBar() {
         <li></li>
         <li></li>
         <li><Link to="/">Główna</Link></li>
-        <li><Link to="/Matutra">Matutra</Link></li>
+        <li><Link to="/MaterialyNaukowe">Materiały Naukowe</Link></li>
         <li>
           <a>Matura</a>
           <ul class="submenu">
@@ -21,7 +21,7 @@ function NavTopBar() {
           <li><Link to="/BazyDanych">Bazy Danych</Link></li>
           </ul>
           </li>
-        <li><Link to="/CiekawyKalkulator">Ciekawy kalkulator</Link></li>
+        <li><Link to="/Kalkulator">Ciekawy kalkulator</Link></li>
         <li><Link to="/Kontakt">Kontakt</Link></li>
       </ul>
     </nav>
